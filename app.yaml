@@ -1,0 +1,20 @@
+runtime: python311 # Or your specific Python version
+
+# For the Flexible environment
+env: flex
+
+# Instance class and scaling settings (adjust as needed)
+resources:
+  cpu: 1
+  memory_gb: 1
+  disk_size_gb: 10
+
+# Handlers map URLs to your application's code
+handlers:
+  # Serve static files (HTML, CSS, JavaScript, images) from the 'static' directory
+  - url: /webPages
+    static_dir: static
+
+  # Handle all other requests using your main application (e.g., API endpoints)
+  - url: .*
+    script: auto # This is likely what you need for a simple web app
