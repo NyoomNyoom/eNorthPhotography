@@ -9,3 +9,8 @@ header {
 .header-nav {
     float: right;
 }
+
+.main-img {
+    width: 100vw;
+    height:80vh;
+}
