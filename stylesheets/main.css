@@ -1,3 +1,11 @@
 header {
     background-color: lightpink;
 }
+
+.header-title, .header-nav {
+    display: inline;
+}
+
+.header-nav {
+    float: right;
+}
