@@ -4,10 +4,15 @@ header {
 
 .header-title, .header-nav {
     display: inline;
+    font-size: 30pt;
 }
 
 .header-nav {
     float: right;
+}
+
+.header-button{
+    padding: 2%;
 }
 
 .main-img {
