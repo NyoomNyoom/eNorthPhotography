@@ -57,3 +57,25 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+#portfolio-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: lightpink;
+    width: 60%;
+}
+
+#intro-div {
+    width: 60%;
+}
+
+#portfolio-img-left {
+    width: 25%;
+    height: 17%;
+}
+
+#portfolio-img-right {
+    width: 25%;
+    height: 17%;
+}
