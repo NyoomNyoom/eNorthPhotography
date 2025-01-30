@@ -60,12 +60,11 @@ a {
 
 #main-portfolio-content{
     display:flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #portfolio-content {
-    display: flex;
-    flex-direction: row;
     background-color: lightpink;
     width: 60%;
 }
