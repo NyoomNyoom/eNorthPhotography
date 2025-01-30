@@ -23,10 +23,10 @@ p{
 
 header {
     background-color: lightpink;
-    display: flex; /* Use Flexbox */
-    justify-content: space-between; /* Space out title and nav */
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px; /* Add some padding for header content */
+    padding: 10px;
 }
 
 .header-title, .header-nav {
@@ -35,16 +35,16 @@ header {
 }
 
 .header-nav {
-    display: flex; /* Flexbox for nav links */
-    gap: 10px; /* Space between links */
+    display: flex;
+    gap: 10px;
 }
 
 a {
     color: black;
     text-decoration: none;
     background-color: #e4717a;
-    padding: 5px 10px; /* Adjust padding for better control */
-    white-space: nowrap; /* Prevent wrapping */
+    padding: 5px 10px;
+    white-space: nowrap;
 }
 
 .main-content{
@@ -58,10 +58,14 @@ a {
     align-items: center;
 }
 
+#main-portfolio-content{
+    display:flex;
+    justify-content: center;
+}
+
 #portfolio-content {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     background-color: lightpink;
     width: 60%;
 }
